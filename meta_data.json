@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "mobile",
+        "2": "productivity"
+    },
+    "demo_page": "https://weprogdev.bubbleapps.io/version-test/cool_toggle",
+    "description": "🔘 Cool Toggle – A Fully Customizable Toggle Switch for Bubble\n\nBring sleek and interactive toggles to your Bubble app with Cool Toggle — a modern, highly customizable plugin that lets you add beautiful toggle switches with ease.\n\nPerfect for settings panels, preferences, forms, feature flags, and more.\n\n⚙️ Key Features:\n\n🌈 Fully customizable:\n\nToggle size (width & height)\n\nBackground and button colors\n\nOptional shadow for a polished look\n\n🧠 Dynamic states:\n\nis_enabled (yes/no) state to track toggle status in real time\n\n🚀 Built-in events:\n\nEnabled, Disabled, and Toggled – perfect for workflow triggers\n\n⚡ Workflow actions:\n\nEnable, Disable, and Toggle the switch programmatically\n\nMinimal, intuitive, and fully flexible — Cool Toggle fits perfectly in any modern UI.\n\nStart adding delightful toggles to your app today! ✨\n\nA Bubble plugin created by We Prog Dev.",
+    "image": "//meta-q.cdn.bubble.io/f1745370447401x915729132720577700/istockphoto-1785349575-612x612.jpg",
+    "license": "open_source",
+    "link": "https://weprogdev.bubbleapps.io/version-test/cool_toggle",
+    "name": "Custom Toggle",
+    "plugin_instructions": "1. Add the Cool Toggle on your page.\n2. Edit and customize with your own style.\n\nBubble editor:\nhttps://bubble.io/page?id=weprogdev&tab=Design&name=cool_toggle&type=page"
+}

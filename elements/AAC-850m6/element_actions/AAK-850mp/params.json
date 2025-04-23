@@ -1,0 +1,12 @@
+{
+    "caption": "Set",
+    "fields": {
+        "AAM": {
+            "caption": "State",
+            "editor": "DynamicValue",
+            "name": "state",
+            "rank": 0,
+            "value": "boolean"
+        }
+    }
+}

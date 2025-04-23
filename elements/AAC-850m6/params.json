@@ -1,0 +1,225 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 80
+    },
+    "display": "Cool Toggle",
+    "events": {
+        "AAE": {
+            "caption": "Enabled",
+            "name": "enabled"
+        },
+        "AAF": {
+            "caption": "Disabled",
+            "name": "disabled"
+        },
+        "AAG": {
+            "caption": "Toggled",
+            "name": "toggled"
+        }
+    },
+    "fields": {
+        "AAL": {
+            "caption": "Initial State",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "initial_state",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAN": {
+            "caption": "Background OFF",
+            "default_val": "rgba(174,174,174,1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "bg_off",
+            "rank": 4
+        },
+        "AAO": {
+            "caption": "Toggle ON",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "toggle_on",
+            "rank": 5
+        },
+        "AAP": {
+            "caption": "Background ON",
+            "default_val": "rgba(32,198,23,1)",
+            "editor": "Color",
+            "name": "bg_on",
+            "rank": 3
+        },
+        "AAQ": {
+            "caption": "Toggle OFF",
+            "default_val": "rgba(241,241,241,1)",
+            "editor": "Color",
+            "name": "toggle_off",
+            "rank": 6
+        },
+        "AAR": {
+            "caption": "Border Width",
+            "editor": "DynamicValue",
+            "name": "border_width",
+            "optional": true,
+            "rank": 9,
+            "value": "number"
+        },
+        "AAS": {
+            "caption": "Border Color ON",
+            "default_val": "rgba(32,198,23,1)",
+            "editor": "Color",
+            "name": "border_color_on",
+            "optional": true,
+            "rank": 10
+        },
+        "AAT": {
+            "caption": "Border Color OFF",
+            "default_val": "rgba(32,32,32,1)",
+            "editor": "Color",
+            "name": "border_color_off",
+            "optional": true,
+            "rank": 11
+        },
+        "AAU": {
+            "caption": "Shadow Horizontal O",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "shadow_hOffset",
+            "optional": true,
+            "rank": 14,
+            "value": "number"
+        },
+        "AAV": {
+            "caption": "Shadow Vertical Offset",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "shadow_vOffset",
+            "optional": true,
+            "rank": 15,
+            "value": "number"
+        },
+        "AAW": {
+            "caption": "Enable Shadow Container?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "shadow",
+            "rank": 13
+        },
+        "AAX": {
+            "caption": "// ---------- Shadow Settings ---------- //",
+            "editor": "Label",
+            "name": "shadow_settings",
+            "rank": 12
+        },
+        "AAY": {
+            "caption": "Shadow Color",
+            "default_val": "rgba(0,0,0,0.08)",
+            "editor": "Color",
+            "name": "shadow_color",
+            "optional": true,
+            "rank": 17
+        },
+        "AAZ": {
+            "caption": "Enable Border?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "border",
+            "rank": 8
+        },
+        "AAa": {
+            "caption": "Shadow Spread",
+            "default_val": 5,
+            "editor": "DynamicValue",
+            "name": "shadow_spread",
+            "optional": true,
+            "rank": 16,
+            "value": "number"
+        },
+        "AAb": {
+            "caption": "// ---------- Border Settings ---------- //",
+            "editor": "Label",
+            "name": "border_settings",
+            "rank": 7
+        },
+        "AAc": {
+            "caption": "// ---------- Element Style ---------- //",
+            "editor": "Label",
+            "name": "toggle_style",
+            "rank": 2
+        },
+        "AAd": {
+            "caption": "Toggle Shadow V. Offset",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "t_shadow_vOffset",
+            "optional": true,
+            "rank": 19,
+            "value": "number"
+        },
+        "AAe": {
+            "caption": "Toggle Shadow H. Offset",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "t_shadow_hOffset",
+            "optional": true,
+            "rank": 20,
+            "value": "number"
+        },
+        "AAf": {
+            "caption": "Enable Toggle Shadow?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "t_shadow",
+            "rank": 18
+        },
+        "AAg": {
+            "caption": "Toggle Shadow Color",
+            "default_val": "rgba(0,0,0,0.2)",
+            "editor": "Color",
+            "name": "t_shadow_color",
+            "optional": true,
+            "rank": 22
+        },
+        "AAh": {
+            "caption": "Toggle Shadow Spread",
+            "default_val": 5,
+            "editor": "DynamicValue",
+            "name": "t_shadow_spread",
+            "optional": true,
+            "rank": 21,
+            "value": "number"
+        },
+        "AAi": {
+            "caption": "Padding",
+            "default_val": 3,
+            "editor": "DynamicValue",
+            "name": "padding",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "icon": "ion-ios-toggle-outline",
+    "platform_type": "web",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "AAD": {
+            "caption": "Is Enabled?",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n    return properties.initial_state;\n}"
+            },
+            "name": "is_enabled",
+            "value": "boolean"
+        }
+    }
+}
